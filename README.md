@@ -126,9 +126,9 @@ Anyway i create new telegram channel just for sharing bot or airdrop, join here
    ```
 5. Navigate to `hanafuda-bot` directory. 
 6. Navigate to `accounts` folder and rename `accounts_tmp.js` to `accounts.js`.
-7. Now open `acccounts.js` and setup your accounts. 
-8. Now Back to `hanafuda-bot` directory and Navigate to `config` adjust the `config.js` as needed.
-9. Also Configure proxy if you want by open `proxy_list.js`.
+7. Now open `acccounts.js` and setup your accounts.
+8. Navigate to `config` and adjust the `config.js` as needed.
+9. Also Configure proxy if you want to use proxy, by open `proxy_list.js`. (if you have 5 accounts, proxy is required)
 10. Back to `hanafuda-bot` directory.
 11. To start the app open your `Command Prompt` or `Power Shell`
 12. Run Bot
@@ -162,19 +162,10 @@ To update bot follow this step :
 DWYOR
 
 the accounts writted with this format
-```
-[
-      {
-          refreshToken: "YOUR REFRESH TOKEN",
-          pk: "YOUR PRIVATE KEY",
-      },
-      {
-          refreshToken: "YOUR REFRESH TOKEN",
-          pk: "YOUR PRIVATE KEY",
-      }
-]
-```
-Where you get refresh token ? 
+
+![photo_2024-10-27_21-01-16](https://github.com/user-attachments/assets/dfeb964a-9c14-42e8-8ff5-6ccb35de0903)
+
+## Where you get refresh token ? 
 - Open hanafuda website and logout from your account.
 - After that open browser developer tool / inspect element
 - Go to network Tab
@@ -182,7 +173,13 @@ Where you get refresh token ?
 - Find a XHR/Fetch request with this url `https://identitytoolkit.googleapis.com/v1/accounts:signInWithIdp?key=`
 - Click the request and open the response tab / preview tab
 - You will get `refreshToken` from that, copy to the bot accounts
+  ``` starts with AMf-xxxxx ```
 - Make sure you've connect your wallet so your Wallet and Hanafuda account is binded
+  === or ===
+ Inspect -> Appication tab -> Session Storage -> http://hanafuda.hana....
+![photo_2024-10-27_21-07-20](https://github.com/user-attachments/assets/2d66ace2-c330-4ee1-8829-8ecd37ffbafe)
+
+
 
 ## CONTRIBUTE
 
