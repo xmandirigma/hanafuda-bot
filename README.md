@@ -127,12 +127,11 @@ Anyway i create new telegram channel just for sharing bot or airdrop, join here
 5. Navigate to `hanafuda-bot` directory. 
 6. Navigate to `accounts` folder and rename `accounts_tmp.js` to `accounts.js`.
 7. Now open `acccounts.js` and setup your accounts.
-8. Navigate to `config` folder and rename `config_tmp.js` to `config.js` and adjust the `config.js` as needed.
-9. Also rename `proxy_list_tmp.js` to `proxy_list.js`.
-10. Also Configure proxy if you want by open `proxy_list.js`. (if you have 5 accounts, proxy is required)
-12. Back to `hanafuda-bot` directory.
-13. To start the app open your `Command Prompt` or `Power Shell`
-14. Run Bot
+8. Navigate to `config` and adjust the `config.js` as needed.
+9. Also Configure proxy if you want to use proxy, by open `proxy_list.js`. (if you have 5 accounts, proxy is required)
+10. Back to `hanafuda-bot` directory.
+11. To start the app open your `Command Prompt` or `Power Shell`
+12. Run Bot
     ```
     npm run start
     ```
