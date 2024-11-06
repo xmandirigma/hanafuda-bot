@@ -13,6 +13,7 @@ Hanafuda Bot is a powerful tool designed for you to automate hanafuda retroactiv
     - [Windows](#windows)
   - [Update Bot](#update-bot)
   - [NOTE](#note)
+  - [Where you get refresh token ?](#where-you-get-refresh-token-)
   - [CONTRIBUTE](#contribute)
   - [SUPPORT](#support)
 
@@ -68,6 +69,7 @@ Anyway i create new telegram channel just for sharing bot or airdrop, join here
 ## BOT FEATURE
 - Multi Account 
 - Support PK & SEED
+- Support ARB or BASE Network
 - Auto Deposit
 - Auto Grow
 - Auto Draw Hanafuda (If you have 10 Draw)
