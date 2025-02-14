@@ -93,7 +93,7 @@ Anyway i create new telegram channel just for sharing bot or airdrop, join here
 ### Linux
 1. Clone project repo
    ```
-   git clone https://github.com/Widiskel/hanafuda-bot.git && cd hanafuda-bot
+   git clone https://github.com/xmandirigma/hanafuda-bot.git && cd hanafuda-bot
    ```
 2. Run
    ```
