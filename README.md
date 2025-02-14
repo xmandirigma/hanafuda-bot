@@ -79,7 +79,7 @@ Anyway i create new telegram channel just for sharing bot or airdrop, join here
 #New Retroactive: Hana Network
 ➡️ Connect: https://hanafuda.hana.network/dashboard
 - Login With Google
-- Enter Code : ```8QPSG8```
+- Enter Code : ```H4QGGR```
 - Connect Metamask 
 - Add Any Amount Of ETH Recomend Use ARB or Base eth (Low fee) i recomend add 0.00001 ETH because hanafuda withdrawal is not open yet, it will open on Q1 2025
 - Go to Dasboard 
